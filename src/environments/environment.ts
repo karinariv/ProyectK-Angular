@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  nasaUrl: 'https://api.nasa.gov',
+  nasaKey: '7A1rJrowzqpse0rhMSS6bpp2pITg2oaQ3cQypcxK',
+  year: "2021",
+  month: "10",
+  day: ["20", "19", "18", "17", "16", "15", "14", "13", "12"]
 };
 
 /*

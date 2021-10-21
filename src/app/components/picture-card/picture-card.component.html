@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{picture.title}}</mat-card-title>
+    </mat-card-header>
+    <div class="container-fluid top-space">
+      <img mat-card-image src="{{picture.url}}" alt="Picture of the day (NASA)">
+    </div>
+    <!-- <mat-card-content>
+      <p>
+        {{picture.explanation}}
+      </p>
+    </mat-card-content> -->
+    <mat-card-actions>
+      <a mat-button [href]="'/picture/'+tday">Details</a>
+      <!-- "'https://api.nasa.gov/planetary/apod?date=2021-10-'+tday+'&api_key=7A1rJrowzqpse0rhMSS6bpp2pITg2oaQ3cQypcxK'" -->
+    </mat-card-actions>
+</mat-card>
